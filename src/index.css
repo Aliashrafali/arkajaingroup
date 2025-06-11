@@ -6,3 +6,21 @@ body{
     height: 100px;
     background-color: red;
 }
+.menu{
+    height: 60px;
+    background-color: red;
+    padding-top: 12px;
+}
+.menu nav ul li{
+    display: inline-block;
+}
+.menu nav ul li .nav{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 25px;
+    padding: 3px 7px;
+}
+.menu nav ul li .nav:hover{
+    background-color: #fff;
+    color: red;
+}
